@@ -42,11 +42,9 @@ export default function ProjectWebsite() {
           <a href="/docs/14-T1-Sentiment Analysis-FinalReport.pdf" target="_blank" rel="noopener noreferrer">Final Report Document</a><br />
           <a href="/docs/requirements.pdf" target="_blank" rel="noopener noreferrer">Project Plan Document</a><br />
           <a href="/docs/requirements.pdf" target="_blank" rel="noopener noreferrer">Requirements Document (SRS)</a>
-          <a> & </a>
           <a href="/docs/requirements.pdf" target="_blank" rel="noopener noreferrer">Design Document (SDD)</a><br />
           <a href="/docs/requirements.pdf" target="_blank" rel="noopener noreferrer">Devlopment Document</a><br />
           <a href="/docs/requirements.pdf" target="_blank" rel="noopener noreferrer">Test Plan Document</a>
-          <a> & </a>
           <a href="/docs/requirements.pdf" target="_blank" rel="noopener noreferrer">Test Report Document</a><br />
         </section>
 
