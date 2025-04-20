@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #ffffff, #f3f4f6);
+  color: #111;
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.navbar {
+  background-color: #000;
+  color: #fff;
+  padding: 1rem 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links a {
+  margin-left: 1.5rem;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+.header-wrapper {
+  background-color: #000;
+  width: 100%;
+}
+
+.content {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: auto;
+  flex-grow: 1;
+}
+
+.title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 800;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 1.25rem;
+  color: #555;
+}
+
+.section {
+  padding: 0.5rem;
+  max-width: 1200px;
+  margin: 0 auto 1rem auto;
+  text-align: left;
+}
+
+.section-title {
+  font-size: 1.75rem;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+}
+
+.card-grid {
+  display: flex;
+  justify-content: center;
+  gap: 1.25rem;
+  flex-wrap: nowrap;
+  
+}
+
+.card {
+  width: 220px;
+  height: 240px;
+  padding: 1.5rem;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.avatar {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ccc;
+  margin-bottom: 1rem;
+}
+
+.member-name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.member-subtitle {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 0.25rem;
+}
+
+.footer {
+  background-color: #e5e7eb;
+  text-align: center;
+  padding: 0.5rem;
+  font-size: 0.875rem;
+  color: #374151;
+  border-top: 1px solid #d1d5db;
+}
+
+.footer-note {
+  font-size: 0.75rem;
+  color: #6b7280;
+}
