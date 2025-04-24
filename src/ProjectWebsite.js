@@ -24,7 +24,7 @@ export default function ProjectWebsite() {
         <p className="subtitle">CS4850 — Spring 2025</p>
 
         <section id="team" className="section">
-          <h2 className="section-title">Meet the Team</h2>
+          <h2 className="section-title">Meet the Team:</h2>
           <div className="card-grid">
             {teamMembers.map((member) => (
               <div className="card" key={member.name}>
@@ -37,19 +37,13 @@ export default function ProjectWebsite() {
         </section>
 
         <section id="documents" className="section">
-          <h2 className="section-title">Project Documents</h2>
-          <h3 classname= "subtitle">Documents</h3>
+          <h2 className="section-title">Project Documents:</h2>
+          <h3 className= "section-subtitle">📄 Documents:</h3>
           <a href="/docs/14-T1-Sentiment Analysis-FinalReport.pdf" target="_blank" rel="noopener noreferrer">Final Report Document</a><br />
-          <a href="/docs/requirements.pdf" target="_blank" rel="noopener noreferrer">Project Plan Document</a><br />
-          <a href="/docs/requirements.pdf" target="_blank" rel="noopener noreferrer">Requirements Document (SRS)</a>
-          <a href="/docs/requirements.pdf" target="_blank" rel="noopener noreferrer">Design Document (SDD)</a><br />
-          <a href="/docs/requirements.pdf" target="_blank" rel="noopener noreferrer">Devlopment Document</a><br />
-          <a href="/docs/requirements.pdf" target="_blank" rel="noopener noreferrer">Test Plan Document</a>
-          <a href="/docs/requirements.pdf" target="_blank" rel="noopener noreferrer">Test Report Document</a><br />
         </section>
 
         <section className="section">
-        <h3 classname= "subtitle">Links</h3>
+        <h3 className= "section-subtitle">🔗 Links:</h3>
           <a id="github" href="https://github.com/KSU-Sentiment-Analysis/sentiment-analysis-Integration" target="_blank" rel="noopener noreferrer">
             View Project on GitHub
           </a><br />
@@ -61,8 +55,7 @@ export default function ProjectWebsite() {
 
       <footer className="footer">
         <p>© 2025 HeartSpeak AI | CS4850 — Spring 2025</p>
-        <p>Project Members: Isha Minocha, Nabeel Faridi, Arvind Iyer, Ethan Barnes, and Shammah Charles</p>
-        <p className="footer-note">For academic use only.</p>
+        <p className="footer-note">Isha Minocha, Nabeel Faridi, Ethan Barnes, Arvind Iyer & Shammah Charles </p>
       </footer>
     </div>
   );
