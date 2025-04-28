@@ -78,7 +78,7 @@ body {
 
 .title {
   text-align: center;
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 800;
   opacity: 0;
   animation: fadeIn 1s ease-out forwards;
@@ -87,7 +87,7 @@ body {
 
 .subtitle {
   text-align: center;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #555;
   opacity: 0;
   animation: fadeIn 1s ease-out forwards;
@@ -104,12 +104,12 @@ body {
 }
 
 .section-title {
-  font-size: 1.75rem;
+  font-size: 1.3rem;
   font-weight: bold;
 }
 
 .section-subtitle {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: bold;
 }
 
@@ -126,6 +126,7 @@ ul.a {
 
 a {
   text-decoration: none;
+  font-size: small;
   color: #4a90e2;
   font-weight: 500;
   padding: 8px 12px;
@@ -143,12 +144,12 @@ a:hover {
   display: flex;
   justify-content: center;
   gap: 1.25rem;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 .card {
-  width: 220px;
-  height: 240px;
+  width: 200px;
+  height: 220px;
   padding: 1.5rem;
   border-radius: 12px;
   background: #fff;
@@ -182,7 +183,7 @@ a:hover {
   border-radius: 50%;
   object-fit: cover;
   border: 2px solid #ccc;
-  margin-bottom: 1rem;
+  margin-bottom: 0.6rem;
 }
 
 .member-name {
@@ -192,9 +193,9 @@ a:hover {
 }
 
 .member-subtitle {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   color: #555;
-  margin-top: 0.25rem;
+  margin-top: 0.02rem;
   font-style: italic;
 }
 

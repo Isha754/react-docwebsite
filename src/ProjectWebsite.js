@@ -40,7 +40,7 @@ export default function ProjectWebsite() {
           <h3 className="section-subtitle">📄 Documents:</h3>
           <ul>
             <li>
-              <a href="/14-T1-Sentiment-Analysis-FinalReport.pdf" target="_blank" rel="noopener noreferrer">
+              <a href="/14-T1-Sentiment Analysis-FinalReport.pdf" target="_blank" rel="noopener noreferrer">
                 Final Report Document
               </a>
             </li>
@@ -56,7 +56,7 @@ export default function ProjectWebsite() {
               </a>
             </li>
             <li>
-              <a href="/videos/final-presentation.mp4" target="_blank" rel="noopener noreferrer">
+              <a href="/final-presentation.mp4" target="_blank" rel="noopener noreferrer">
                 Final Presentation Video
               </a>
             </li>
